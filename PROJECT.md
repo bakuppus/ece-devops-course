@@ -22,7 +22,7 @@ At the end of the DevOps course the students will pass an exam **and** a project
 
 ## Project instructions
 
-The project is based on all the class works and students are allowed to use all of them them.   
+The project is based on all the class works and students are allowed to use all of them them.
 
 ### 0. Describe your project in the `README.md` file
 
@@ -47,28 +47,12 @@ The project is based on all the class works and students are allowed to use all 
   1. Create a `Dockerfile`
   2. Push an image to your Docker Hub account
 
-### 4. Make docker orchestration using Docker Compose
-
-  1. Create a `docker-compose.yml` file with necessary configuration
-
-### 5. Make docker orchestration using Kubernetes
+### 4. Make docker orchestration using Kubernetes
 
   1. Install a Kubernetes cluster (using Minikube)
   2. Create a Kubernetes Manifest yaml file that configures deployment, services, replicas etc.
   3. Configure a persistent storage with Volumes in a Manifest yaml file
 
-### 6. Make a service mesh using Istio
-
-  1. Deploy your application using Istio
-  2. Route requests between 2 different versions of your app
-  3. Make traffic shifting between 2 different versions of your app
-
-### 7. Configure infrastructure as code using Ansible
-
-  1. Prepare a virtual environment and install Ansible on it
-  2. Install Docker Engine on VM using Ansible
-  3. Run a docker container on VM mounting Volumes
-  4. Run docker containers using [docker_compose](https://docs.ansible.com/ansible/latest/modules/docker_compose_module.html) module
 
 ## How can you get some bonuses?
 

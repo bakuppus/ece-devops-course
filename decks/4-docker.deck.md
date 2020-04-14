@@ -6,13 +6,10 @@ title: Containers - Docker
 
 1. Introduction to DevOps
 2. Source Control Management (SCM) - Git
-3. Continuous Testing, Continuous Integration & Continuous Delivery (CI/CD) - Travis CI
+3. Continuous Testing, Continuous Integration & Continuous Delivery (CI/CD) - Travis CI and Heroku
 4. **Containers - Docker**
-5. Containers orchestration - Docker Compose
-6. Containers orchestration - Kubernetes
-7. Microservices & Service mesh - Istio
-8. Infrastructure as code (IaC) - Ansible
-9. Cloud native architecture
+6. Containers Orchestration - Kubernetes and Docker Compose
+
 
 gatsby-slide
 

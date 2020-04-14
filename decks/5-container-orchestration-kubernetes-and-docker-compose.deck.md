@@ -1,18 +1,14 @@
 ---
-title: Containers orchestration - Kubernetes
+title: Containers Orchestration - Kubernetes and Docker Compose
 ---
 
 # DevOps course overview
 
 1. Introduction to DevOps
 2. Source Control Management (SCM) - Git
-3. Continuous Testing, Continuous Integration & Continuous Delivery (CI/CD) - Travis CI
+3. Continuous Testing, Continuous Integration & Continuous Delivery (CI/CD) - Travis CI and Heroku
 4. Containers - Docker
-5. Containers orchestration - Docker Compose
-6. **Containers orchestration - Kubernetes**
-7. Microservices & Service mesh - Istio
-8. Infrastructure as code (IaC) - Ansible
-9. Cloud native architecture
+6. **Containers Orchestration - Kubernetes and Docker Compose**
 
 gatsby-slide
 
@@ -35,6 +31,44 @@ gatsby-slide
 ## Videos:
 
 - [Container Orchestration Explained](https://www.youtube.com/watch?v=kBF6Bvth0zw)
+
+gatsby-slide
+
+# Introduction to Docker Compose
+
+A tool for running multi-container applications.
+
+Example: The easiest way to get started with services, such as having a database (MongoDB, PostgreSQl, ...)
+
+## Videos:
+
+- [Déployer une app avec Docker compose](https://www.youtube.com/watch?v=dWcoIxRfs8Y) (8 min, French)
+
+## Links:
+
+- [Overview](https://docs.docker.com/compose/)
+
+gatsby-slide
+
+# Your work. Part 1
+
+## 1. Run multiple containers
+
+Start GitLab containers
+
+```
+cd assets/lab-5-container-orchestration/gitlab
+docker-compose up
+```
+
+## 2. Explore running containers and images
+
+Using commands:
+
+- `docker ps`
+- `docker images`
+
+Test GitLab in a browser `http://localhost:10080/`
 
 gatsby-slide
 
@@ -103,19 +137,19 @@ We will use today these tools:
 
 gatsby-slide
 
-# Your work
+# Your work. Part 2
 
 You will start a single node Kubernetes cluster using Minikube and deploy containerized applications on top of it.
 
 ## Objectives
 
-**Part 1 (classwork):**
+**Classwork:**
 
 1. Installation
 2. Quick start
 3. Explore the local Kubernetes cluster
 
-**Part 2 (homework, included to the project):**
+**Homework, included to the project:**
 
 4. Create an image of your app on Docker Hub
 5. Deploy an app using `kubectl`
@@ -123,7 +157,7 @@ You will start a single node Kubernetes cluster using Minikube and deploy contai
 
 gatsby-slide
 
-# Your work. Part 1
+# Your work. Part 2
 
 ## 1. Installation
 
@@ -137,7 +171,7 @@ gatsby-slide
 
 gatsby-slide
 
-# Your work. Part 1
+# Your work. Part 2
 
 ## 2. Quick start with Minikube
 
@@ -153,7 +187,7 @@ Follow the instructions on the [Quick start](https://kubernetes.io/docs/setup/le
 
 gatsby-slide
 
-# Your work. Part 1
+# Your work. Part 2
 
 ## 3. Explore the local Kubernetes cluster
 
@@ -217,7 +251,7 @@ kubectl expose deployment <your_deployment_name> --type=NodePort --port=<YOUR_PO
 
 - `docker ps`
 - `kubectl`
-- the Dashboard
+- the Kubernetes Dashboard
 
 4. Access to your app
 
