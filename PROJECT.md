@@ -13,6 +13,7 @@ It will take place online via Moodle according to the planning.
 - QCM (from 1 to 4 correct answers possible)
 - 20 questions
 - 35 min
+- in English
 
 It will contain 2 types of questions (10/10):
 
